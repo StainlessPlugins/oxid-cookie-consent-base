@@ -3,7 +3,7 @@
   "description": "Basic cookie consent module for oxid to be used by cookie consent modules.",
   "type": "oxideshop-module",
   "license": [
-    "commercial"
+    "proprietary"
   ],
   "autoload": {
     "psr-4": {
@@ -11,6 +11,6 @@
     }
   },
   "require" : {
-    "oxid-cookie-consent-base-free": "*"
+    "stainlessplugins/oxid-cookie-consent-base-free": "*"
   }
 }
