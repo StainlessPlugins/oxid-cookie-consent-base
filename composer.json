@@ -1,0 +1,16 @@
+{
+  "name": "stainlessplugins/oxid-cookie-consent-base",
+  "description": "Basic cookie consent module for oxid to be used by cookie consent modules.",
+  "type": "oxideshop-module",
+  "license": [
+    "commercial"
+  ],
+  "autoload": {
+    "psr-4": {
+      "StainlessPlugins\\OxidCookieConsentBase\\": ""
+    }
+  },
+  "require" : {
+    "oxid-cookie-consent-base-free": "*"
+  }
+}
